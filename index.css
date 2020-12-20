@@ -1,0 +1,39 @@
+body {
+    background-color: hsl(214, 47%, 23%);
+}
+.score {
+    width: 600px;
+    height: 150px;
+    border-radius: 10px;
+    border:2px solid ;
+    border-color: rgb(143, 135, 135);
+    background-color: transparent;
+    margin: auto;
+    margin-top: 50px;
+    position: absolute;
+}
+.score h1 {
+    margin-right: -25px;
+    float: left;
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    font-size: 30px;
+}   
+.score span {
+    display: block;
+}
+.caja-score{ 
+    margin-right: 50px;
+    float: right;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 10px;
+    margin-right: 20px;
+
+}
+.caja-score span{
+    color: black;
+    display: block;
+}
