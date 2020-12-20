@@ -10,7 +10,6 @@ body {
     background-color: transparent;
     margin: auto;
     margin-top: 50px;
-    position: absolute;
 }
 .score h1 {
     margin-right: -25px;
@@ -30,10 +29,56 @@ body {
     border-radius: 10px;
     background-color: white;
     margin-top: 10px;
-    margin-right: 20px;
-
 }
 .caja-score span{
     color: black;
     display: block;
+}
+
+.triangulo{
+    margin-top: 95px;
+    text-align: center;
+}
+.papel {
+    border: solid 20px hsl(230, 89%, 62%);
+    position: absolute;
+    top: 38%;
+    left: 30%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: white;
+}
+.piedra{
+    border: solid 20px hsl(349, 70%, 56%);
+    border: solid 20px ;
+    right: 45%;
+    top: 72%;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: white;
+}
+.scissors{
+    border: solid 20px hsl(39, 89%, 49%) ;
+    right: 31%;
+    top: 38%;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: white;
+}
+.rules{
+    color: white;
+    text-align: center;
+    font-size: xx-small;
+    margin-top: 65px;
+    float: right;
+    width: 58px;
+    height: 45px;
+    border-radius: 10px;
+    border:2px solid ;
+    border-color: rgb(143, 135, 135);
 }
