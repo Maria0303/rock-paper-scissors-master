@@ -1,0 +1,162 @@
+body {
+    background-color: hsl(214, 47%, 23%);
+}
+
+.score {
+    width: 600px;
+    height: 150px;
+    border-radius: 10px;
+    border:2px solid ;
+    border-color: rgb(143, 135, 135);
+    background-color: transparent;
+    margin: auto;
+    margin-top: 50px;
+    border: solid 2px;
+    border-color: hsl(217, 16%, 45%);
+    margin-bottom: 100px;
+}
+
+.score h1 {
+	font-size: 30px;
+    margin-right: -25px;
+    float: left;
+    font-family: 'Barlow', sans-serif;
+    color: white;
+}   
+
+.score span {
+    display: block;
+}
+
+.caja-score { 
+    text-align: center;
+	font-size: 15px;
+	margin-top: 20px;
+	width: 150px;
+	height: 130px;
+	background-color: white;
+	border-radius: 10px;
+	float: right;
+	margin: 10px;
+	margin-right: 20px;
+}
+
+.caja-score h1 {
+    color: black;
+    display: block;
+}
+
+.triangulo {
+    margin-top: 95px;
+    text-align: center;
+}
+.papel {
+    border: solid 20px hsl(230, 89%, 62%);
+    position: absolute;
+    top: 36%;
+    left: 39%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: white;
+}
+
+.buttonPapel {
+    margin-left: 15%;
+    margin-top: 20%;
+    background: white;
+    border: white ;
+}
+
+.buttonScissors {
+    margin-left: 15%;
+    margin-top: 20%;
+    background: white;
+    border: white;
+}
+
+.rock {
+    border: solid 20px hsl(349, 70%, 56%) ;
+    right: 45%;
+    top: 59%;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: white;
+}
+
+.buttonRock {
+    margin-left: 17%;
+    margin-top: 25%;
+    background: white;
+    border: white ;
+}
+
+.scissors {
+    border: solid 20px hsl(39, 89%, 49%);
+    right: 39%;
+    top: 36%;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: white;
+}
+
+.buttonRules {
+    background-color: transparent;
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: small;
+    margin-top: 75px;
+    float: right;
+    width: 130px;
+    height: 48px;
+    border-radius: 10px;
+    border:2px solid ;
+    border-color: rgb(143, 135, 135);
+}
+
+.containerRules {
+    position: absolute;
+    margin-top: -406px;
+    width: 336px;
+    height: 344px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 607px;
+}
+
+.texto-CR h1{
+    margin-left: 15px;
+    margin-right: 167px;
+    display: inline-flex;
+    font-size: 25px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.buttonExit {
+
+    border: white;
+    width: 35px;
+    height: 28px;
+    background: white;
+    margin: 4px;
+
+}
+
+.imgRules {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.containerRules .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}*/
+
+
