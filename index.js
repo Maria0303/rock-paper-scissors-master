@@ -1,16 +1,7 @@
-let elements = document.getElementsByClassName('buttonPapel');
+function SaveAndHide(circulos) {
+    circulos.style.display = "none";
+  }
 
-for (let el of elements) {
-    el.addEventListener("click", eligePapel)
-}
-
-function eligePapel(event) {
-    let ocultar=document.getElementById('circulos');
-    ocultar.style.display='none';
-
-}
-
-/*function mostrarContainer() {
-    var rules1 = document.getElementById("cajaReglas");
-    rules1.classList.toggle("show");
-}*/
+function SaveAndHide(containerRules) {
+    containerRules.style.display = "none";
+  }

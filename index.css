@@ -110,7 +110,7 @@ body {
     color: white;
     text-align: center;
     font-size: small;
-    margin-top: 75px;
+    margin-top: 320px;
     float: right;
     width: 130px;
     height: 48px;
@@ -121,12 +121,13 @@ body {
 
 .containerRules {
     position: absolute;
-    margin-top: -406px;
+    margin-top: -394px
+;
     width: 336px;
     height: 344px;
     background-color: white;
     border-radius: 10px;
-    margin-left: 607px;
+    margin-left: 615px;
 }
 
 .texto-CR h1{
@@ -151,12 +152,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} 
 
-/*.containerRules .show {
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
-}*/
 
 
