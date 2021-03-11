@@ -110,7 +110,7 @@ body {
     color: white;
     text-align: center;
     font-size: small;
-    margin-top: 320px;
+    margin-top: 138px;
     float: right;
     width: 130px;
     height: 48px;
@@ -119,10 +119,9 @@ body {
     border-color: rgb(143, 135, 135);
 }
 
-.containerRules {
+#containerRules {
     position: absolute;
-    margin-top: -394px
-;
+    margin-top: -394px;
     width: 336px;
     height: 344px;
     background-color: white;
