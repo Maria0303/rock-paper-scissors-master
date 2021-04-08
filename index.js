@@ -3,6 +3,8 @@ function SaveAndHide(esconder){
 
 }
 
+
+
 function show(){
   const mostrarContainerRules = document.getElementById("containerRules");
   mostrarContainerRules.style.display = "block";
@@ -14,5 +16,6 @@ function init(){
   buscarContainerRules.style.display = "none";
 
 }
+
 
 init();
